@@ -1,0 +1,56 @@
+			self.qyur1_money = self.GetChild("qyur1_money")
+			self.qyur2_money = self.GetChild("qyur2_money")
+			self.qyur3_money = self.GetChild("qyur3_money")
+			self.qyur4_money = self.GetChild("qyur4_money")
+      
+      
+    self.qyur1_money = 0
+		self.qyur2_money = 0
+		self.qyur3_money = 0
+		self.qyur4_money = 0
+    
+    
+    		qyur1_money = money[7:10]
+		qyur2_money = money[4:7]
+		qyur3_money = money[1:4]
+		qyur4_money = money[0]
+		
+		qyur1_money = qyur1_money.replace('q', '')
+		qyur2_money = qyur2_money.replace('q', '')
+		qyur3_money = qyur3_money.replace('q', '')
+		qyur4_money = qyur4_money.replace('q', '')
+		
+		if len(qyur1_money) < 1:
+			self.qyur1.Hide()
+		else:
+			self.qyur1.Show()
+		
+		if len(qyur2_money) < 1:
+			self.qyur2.Hide()
+		else:
+			self.qyur2.Show()
+		
+		if len(qyur3_money) < 1:
+			self.qyur3.Hide()
+		else:
+			self.qyur3.Show()
+		
+		if len(qyur4_money) < 1:
+			self.qyur4.Hide()
+		else:
+			self.qyur4.Show()
+		
+		self.qyur1_money.SetText(qyur1_money)
+		self.qyur2_money.SetText(qyur2_money)
+		self.qyur3_money.SetText(qyur3_money)
+		self.qyur4_money.SetText(qyur4_money)
+		
+
+		money2 = str(1333333337)
+		moneylen2 = len(money2)
+		while moneylen2 < 10:
+			money2 = "q" + money2
+			moneylen2 = len(money2)
+      
+      
+    
