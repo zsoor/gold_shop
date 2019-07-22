@@ -1,0 +1,113 @@
+                ## Print
+				{
+					"name":"Money_Slot",
+					"type":"button",
+
+					"x":16,
+					"y":38-7,
+
+					#"horizontal_align":"center",
+					"vertical_align":"bottom",
+
+					"default_image" : "locale/de/ui/qyur/yang.tga",
+					"over_image" : "locale/de/ui/qyur/yang.tga",
+					"down_image" : "locale/de/ui/qyur/yang.tga",
+
+					"children" :
+					(
+						{
+							"name" : "qyur1",
+							"type" : "image",
+
+							"x" : 20,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"image":"locale/de/ui/qyur/yc04.sub",
+						},
+						{
+							"name" : "qyur1_money",
+							"type" : "text",
+
+							"x" : 20,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
+						{
+							"name" : "qyur2",
+							"type" : "image",
+
+							"x" : 20+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"image":"locale/de/ui/qyur/yc03.sub",
+						},
+						{
+							"name" : "qyur2_money",
+							"type" : "text",
+
+							"x" : 20+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
+						{
+							"name" : "qyur3",
+							"type" : "image",
+
+							"x" : 20+30+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"image":"locale/de/ui/qyur/yc02.sub",
+						},
+						{
+							"name" : "qyur3_money",
+							"type" : "text",
+
+							"x" : 20+30+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
+						{
+							"name" : "qyur4",
+							"type" : "image",
+
+							"x" : 20+30+30+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"image":"locale/de/ui/qyur/yc01.sub",
+						},
+						{
+							"name" : "qyur4_money",
+							"type" : "text",
+
+							"x" : 20+30+30+30,
+							"y" : 1,
+
+							"horizontal_align" : "right",
+							"text_horizontal_align" : "right",
+
+							"text" : "123456789",
+						},
